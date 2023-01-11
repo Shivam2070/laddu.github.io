@@ -1,10 +1,10 @@
 function checkPassword() {
     // Replace 'correctPassword' with the actual password
-    if (document.getElementById('password').value === '123') {
+    if (document.getElementById('password').value === '@HelloWorl') {
       window.location.href = 'main.html';
       return false;
     } else {
-      alert('Incorrect password');
+      alert('Incorrect Code');
       return false;
     }
   }
