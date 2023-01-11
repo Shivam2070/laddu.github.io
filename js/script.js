@@ -1,6 +1,6 @@
 function checkPassword() {
     // Replace 'correctPassword' with the actual password
-    if (document.getElementById('password').value === '@HelloWorl') {
+    if (document.getElementById('password').value === '@HelloWorld') {
       window.location.href = 'main.html';
       return false;
     } else {
